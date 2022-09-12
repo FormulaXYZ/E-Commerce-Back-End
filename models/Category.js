@@ -13,11 +13,11 @@ Category.init(
       autoIncrement: true,
       allowNull:false,
     },
-    Category_name:{
+    Category:{
       type:DataTypes.STRING,
       allowNull:false
     },
-  },
+      },
   {
     sequelize,
     timestamps: false,
