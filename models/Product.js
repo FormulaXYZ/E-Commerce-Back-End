@@ -16,7 +16,7 @@ Product.init(
       primaryKey: true,
       autoIncrement: true,
     },
-    Product_name: {
+    product_name: {
       type: DataTypes.STRING,
       allowNull: false,
     },
@@ -29,7 +29,7 @@ Product.init(
       allowNull: false,
     },
     category_id:{
-      type:DataTypes.TNTEGER,
+      type:DataTypes.INTEGER,
       allowNull: false,
     },
   },
